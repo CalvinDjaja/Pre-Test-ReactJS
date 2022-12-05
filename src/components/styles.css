@@ -11,6 +11,13 @@
   color: aliceblue;
   margin-top: 15px;
 }
+.footer-title {
+  color: aliceblue;
+  padding-top: 15px;
+  padding-bottom: 60px;
+  margin: auto;
+  text-align: center;
+}
 
 .navigation {
   display: flex;

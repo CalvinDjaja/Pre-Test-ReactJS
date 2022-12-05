@@ -2,7 +2,7 @@ import logo from '../logo.svg';
 import './styles.css';
 
 function Header(prop) {
-  const menu = ["Home", "Feature"];
+  const menu = ["Home", "Feature", "AboutUs"];
 
   const navigation = () => {
     return menu.map((item, idx) => {
@@ -13,7 +13,7 @@ function Header(prop) {
     <div>
       <header className='header-wrapper'>
         <img src={logo} alt="logo" />
-        <h1 className='header-title' >Tutorial React</h1>
+        <h1 className='header-title' >Toys Family</h1>
         <nav className='navigation'>{navigation()}</nav>
       </header>
     </div>

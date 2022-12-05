@@ -3,7 +3,7 @@ import Sidebar from "./fragments/sidebar/sidebar";
 import "./styles.css";
 
 function Home() {
-  let data = "ini adalah isi konten";
+  let data = "Home";
 
   return (
     <div>
